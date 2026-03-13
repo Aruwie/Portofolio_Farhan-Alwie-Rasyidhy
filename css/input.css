@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+:root {
+    --primary: #006dbb;
+    --secondary: #092846;
+    --background: #ffffff;
+    --text: #161e2a;
+    --textalt: #b4c9ea;
+}
+
+@theme {
+    --color-primary: var(--primary);
+    --color-secondary: var(--secondary);
+    --color-background: var(--background);
+    --color-text: var(--text);
+    --color-textalt: var(--textalt);
+}
